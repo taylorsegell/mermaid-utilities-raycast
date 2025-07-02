@@ -2,14 +2,10 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "mermaid-utilities",
   "title": "Mermaid Utilities",
-  "description": "Convert Mermaid diagrams to SVGs, PNGs, and other straight from you clipboard or in raycast",
+  "description": "Convert Mermaid diagrams to SVGs, PNGs, and other formats straight from your clipboard or in Raycast",
   "icon": "extension-icon.png",
   "author": "taylorsegell",
-  "owner": "taylorsegell",
   "repository": "https://github.com/taylorsegell/mermaid-utilities",
-  "contributors": [
-    "taylorsegell"
-  ],
   "ai": {
     "name": "Mermaid Diagram Generator",
     "description": "Can generate Mermaid diagrams (like flowcharts, sequence diagrams, class diagrams) from descriptions and copy the resulting image.",

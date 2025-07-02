@@ -15,7 +15,6 @@ import {
   showToast,
   Toast,
   useNavigation,
-  environment,
 } from "@raycast/api";
 import { showFailureToast } from "@raycast/utils";
 import { Preferences } from "../types";

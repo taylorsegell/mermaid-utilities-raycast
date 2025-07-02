@@ -15,9 +15,11 @@ A Raycast extension that instantly converts Mermaid diagram code from your clipb
 1. Make sure you have Node.js installed on your system
 2. Install the required Mermaid CLI tool globally by running:
 3. Install the extension from Raycast Store
+
 ```
 npm install -g @mermaid-js/mermaid-cli
 ```
+
 ## Requirements
 
 - [Node.js](https://nodejs.org/) (v14 or higher)
@@ -26,6 +28,7 @@ npm install -g @mermaid-js/mermaid-cli
 ## Usage
 
 1. **Copy Mermaid Code**: Copy any valid Mermaid diagram code to your clipboard
+
    ```
    graph TD
        A[Start] --> B{Is it working?}
@@ -56,6 +59,7 @@ Configure the extension in Raycast preferences:
 Here are some example Mermaid diagrams you can try:
 
 ### Flowchart
+
 ```
 graph TD
     A[Start] --> B{Is it working?}
@@ -65,6 +69,7 @@ graph TD
 ```
 
 ### Sequence Diagram
+
 ```
 sequenceDiagram
     participant Alice
@@ -80,6 +85,7 @@ sequenceDiagram
 ```
 
 ### Class Diagram
+
 ```
 classDiagram
     Animal <|-- Duck
@@ -113,6 +119,7 @@ classDiagram
 ## Credits
 
 This extension uses:
+
 - [@mermaid-js/mermaid-cli](https://github.com/mermaid-js/mermaid-cli) for command-line generation
 
 ## License
